@@ -29,7 +29,7 @@ allow_web_search=st.checkbox("🔎 Tap into live trend radar", value=True)
 
 user_query=st.text_area("What’s your fashion dilemma today?", height=150, placeholder="Ask Us Anything!")
 
-API_URL="http://127.0.0.1:9999/chat"
+API_URL="https://langgraph-ai-agent-bexp.onrender.com"
 
 if st.button("Style Me!"):
     if user_query.strip():
