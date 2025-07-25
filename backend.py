@@ -38,7 +38,7 @@ def chat_endpoint(request: RequestState):
         provider = request.model_provider  
         
         # Create AI Agent and get response from it
-        response = get_response_from_ai_agent(llm_id, query, allow_search, provider)
+        response = get_response_from_ai_agent(llm_id, query, allow_search, provider, request.system_prompt)
         
         return {
             "status": "success",
