@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
-st.title("A friendly, Fashion AI")
+st.title("A Friendly, Fashion AI")
 st.write("What’s on your style radar?")
 
 system_prompt=st.text_area("Who’s your style spirit today?", height=70, placeholder=(
