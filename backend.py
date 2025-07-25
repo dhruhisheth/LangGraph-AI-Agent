@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 # Setup Pydantic Model (Schema Validation)
 from pydantic import BaseModel
 

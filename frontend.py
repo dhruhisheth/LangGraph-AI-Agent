@@ -6,11 +6,14 @@ st.title("A friendly, Fashion AI")
 st.write("What’s on your style radar?")
 
 system_prompt=st.text_area("Who’s your style spirit today?", height=70, placeholder=(
-        "e.g. ‘Channel a Tokyo streetwear maverick’, "
-        "‘Speak as a Paris haute-couture icon’, "
-        "‘Be my sustainable fashion guru’, "
-        "‘Style me like a 1920s flapper star’…"
-    ))
+    "e.g. ‘Channel your inner runway icon’, "
+    "‘Speak as a Parisian trendsetter’, "
+    "‘Be my sustainable style guru’, "
+    "‘Style me like a 90s supermodel’, "
+    "‘Give advice as a streetwear visionary’, "
+    "‘Inspire me with vintage Hollywood glam’, "
+    "‘Guide me like a minimalist fashion editor’…"
+))
 
 MODEL_NAMES_GROQ = ["llama-3.3-70b-versatile", "mixtral-8x7b-32768"]
 MODEL_NAMES_OPENAI = ["gpt-4o-mini"]
